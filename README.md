@@ -10,7 +10,7 @@ CLI per consultare le principali scadenze fiscali italiane del 2026: IVA,
 ritenute, LIPE, contributi INPS, IMU, dichiarazioni e acconti — con gli
 slittamenti per weekend, festivi e differimento feriale già applicati.
 
-![Output di scadenze prossime](docs/demo.svg)
+![Demo animata del CLI](docs/demo.gif)
 
 ## Installazione
 
@@ -87,7 +87,6 @@ consulenza professionale.
 ## Roadmap
 
 - [ ] Revisione completa delle date su fonti ufficiali
-- [ ] GIF animata del terminale (vhs)
 - [ ] Dataset 2027
 - [ ] Export CSV
 - [ ] Notifiche/reminder
@@ -99,6 +98,7 @@ uv sync
 uv run pytest                             # 16 test
 uv run python scripts/genera_dataset.py   # rigenera il dataset
 uv run python scripts/genera_screenshot.py
+uv run python scripts/genera_gif.py       # richiede Edge (Windows)
 ```
 
 ## Chi sono

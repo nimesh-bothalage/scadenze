@@ -29,7 +29,10 @@ Repository = "https://github.com/nbflows-managemente/scadenze"
 scadenze = "scadenze.cli:app"
 
 [dependency-groups]
-dev = ["pytest>=8.0"]
+dev = [
+    "pillow>=12.3.0",
+    "pytest>=8.0",
+]
 
 [build-system]
 requires = ["hatchling"]
