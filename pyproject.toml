@@ -1,6 +1,6 @@
 [project]
 name = "scadenze"
-version = "0.1.1"
+version = "0.1.2"
 description = "Scadenze fiscali italiane 2026, dal terminale"
 readme = "README.md"
 license = { file = "LICENSE" }

@@ -35,6 +35,7 @@ scadenze mese settembre           # anche: scadenze mese 9
 scadenze cerca lipe
 scadenze --categoria iva prossime # filtra per categoria
 scadenze export --ical -o scadenze.ics
+scadenze export --csv -o scadenze.csv   # apribile in Excel
 ```
 
 La colonna **Tra** evidenzia in rosso le scadenze entro 7 giorni.
@@ -88,8 +89,8 @@ consulenza professionale.
 
 - [x] Revisione delle date su fonti ufficiali (scadenzario AdE, Fisco Oggi,
       Circolare INPS 14/2026 — luglio 2026)
+- [x] Export CSV
 - [ ] Dataset 2027
-- [ ] Export CSV
 - [ ] Notifiche/reminder
 
 ## Sviluppo

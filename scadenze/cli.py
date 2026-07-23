@@ -10,7 +10,7 @@ from rich.console import Console
 from rich.table import Table
 
 from . import data as dati
-from .export import esporta_ical
+from .export import esporta_csv, esporta_ical
 
 app = typer.Typer(
     help="Scadenze fiscali italiane 2026, dal terminale.",
@@ -123,15 +123,22 @@ def cerca(ctx: typer.Context, testo: str = typer.Argument(..., help="Testo da ce
 def export(
     ctx: typer.Context,
     ical: bool = typer.Option(False, "--ical", help="Esporta in formato iCalendar (.ics)"),
-    output: Path = typer.Option(Path("scadenze.ics"), "--output", "-o", help="File di destinazione"),
+    csv: bool = typer.Option(False, "--csv", help="Esporta in CSV (separatore ';', apribile in Excel)"),
+    output: Path | None = typer.Option(None, "--output", "-o", help="File di destinazione"),
 ) -> None:
-    """Esporta le scadenze (per ora solo --ical)."""
-    if not ical:
-        console.print("[red]Specifica un formato: al momento è disponibile solo --ical[/red]")
+    """Esporta le scadenze in formato iCalendar (--ical) o CSV (--csv)."""
+    if ical == csv:
+        console.print("[red]Specifica un formato: --ical oppure --csv[/red]")
         raise typer.Exit(code=1)
     scadenze = _carica(ctx)
-    output.write_bytes(esporta_ical(scadenze))
-    console.print(f"[green]Esportate {len(scadenze)} scadenze in[/green] {output}")
+    if ical:
+        destinazione = output or Path("scadenze.ics")
+        destinazione.write_bytes(esporta_ical(scadenze))
+    else:
+        destinazione = output or Path("scadenze.csv")
+        # utf-8-sig: con il BOM Excel riconosce l'UTF-8 e mostra bene gli accenti
+        destinazione.write_text(esporta_csv(scadenze), encoding="utf-8-sig")
+    console.print(f"[green]Esportate {len(scadenze)} scadenze in[/green] {destinazione}")
 
 
 if __name__ == "__main__":

@@ -1,7 +1,9 @@
-"""Export delle scadenze in formato iCalendar."""
+"""Export delle scadenze in formato iCalendar e CSV."""
 
 from __future__ import annotations
 
+import csv
+import io
 from datetime import timedelta
 
 from icalendar import Calendar, Event
@@ -25,3 +27,21 @@ def esporta_ical(scadenze: list[Scadenza]) -> bytes:
         evento.add("categories", [s.categoria])
         cal.add_component(evento)
     return cal.to_ical()
+
+
+def esporta_csv(scadenze: list[Scadenza]) -> str:
+    """Genera un CSV con separatore ';' (convenzione di Excel in italiano)."""
+    buffer = io.StringIO()
+    writer = csv.writer(buffer, delimiter=";", lineterminator="\n")
+    writer.writerow(["data", "titolo", "descrizione", "categoria", "soggetti", "modello", "ricorrenza"])
+    for s in scadenze:
+        writer.writerow([
+            s.data.isoformat(),
+            s.titolo,
+            s.descrizione,
+            s.categoria,
+            "|".join(s.soggetti),
+            s.modello or "",
+            s.ricorrenza or "",
+        ])
+    return buffer.getvalue()

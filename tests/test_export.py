@@ -3,7 +3,7 @@ from datetime import date
 from icalendar import Calendar
 
 from scadenze.data import Scadenza, carica_scadenze
-from scadenze.export import esporta_ical
+from scadenze.export import esporta_csv, esporta_ical
 
 
 def test_esporta_ical_un_evento_per_scadenza():
@@ -27,3 +27,11 @@ def test_esporta_ical_campi_evento():
     assert str(evento["SUMMARY"]) == "Liquidazione IVA mensile"
     assert evento["DTSTART"].dt == date(2026, 8, 20)
     assert evento["DTEND"].dt == date(2026, 8, 21)
+
+
+def test_esporta_csv_intestazione_e_righe():
+    scadenze = carica_scadenze()
+    righe = esporta_csv(scadenze).splitlines()
+    assert righe[0] == "data;titolo;descrizione;categoria;soggetti;modello;ricorrenza"
+    assert len(righe) == len(scadenze) + 1
+    assert righe[1].startswith("2026-01-16;")

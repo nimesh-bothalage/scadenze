@@ -4,6 +4,13 @@ Tutte le modifiche rilevanti di questo progetto sono documentate qui.
 Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e il versionamento segue il [Semantic Versioning](https://semver.org/lang/it/).
 
+## [0.1.2] - 2026-07-23
+
+### Aggiunto
+
+- Export CSV (`scadenze export --csv`): separatore `;` e BOM UTF-8, così il
+  file si apre correttamente in Excel in italiano
+
 ## [0.1.1] - 2026-07-23
 
 ### Corretto
@@ -26,5 +33,6 @@ e il versionamento segue il [Semantic Versioning](https://semver.org/lang/it/).
 - README con GIF animata del terminale e pubblicazione automatica su PyPI
   via trusted publishing
 
+[0.1.2]: https://github.com/nimesh-bothalage/scadenze/releases/tag/v0.1.2
 [0.1.1]: https://github.com/nimesh-bothalage/scadenze/releases/tag/v0.1.1
 [0.1.0]: https://github.com/nimesh-bothalage/scadenze/releases/tag/v0.1.0

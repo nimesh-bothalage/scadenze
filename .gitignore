@@ -4,3 +4,5 @@ __pycache__/
 dist/
 *.ics
 .pytest_cache/
+*.csv
+profilo.md

@@ -48,6 +48,19 @@ def test_export_ical(tmp_path):
     assert destinazione.read_bytes().startswith(b"BEGIN:VCALENDAR")
 
 
+def test_export_csv(tmp_path):
+    destinazione = tmp_path / "scadenze.csv"
+    esito = runner.invoke(app, ["export", "--csv", "-o", str(destinazione)])
+    assert esito.exit_code == 0
+    contenuto = destinazione.read_text(encoding="utf-8-sig")
+    assert contenuto.startswith("data;titolo;")
+
+
 def test_export_senza_formato():
     esito = runner.invoke(app, ["export"])
+    assert esito.exit_code == 1
+
+
+def test_export_formati_incompatibili():
+    esito = runner.invoke(app, ["export", "--ical", "--csv"])
     assert esito.exit_code == 1
