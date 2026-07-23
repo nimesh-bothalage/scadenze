@@ -1,0 +1,654 @@
+[
+  {
+    "id": "iva-liquidazione-2026-01",
+    "data": "2026-01-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a dicembre 2025 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-01",
+    "data": "2026-01-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a dicembre 2025",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "inail-autoliquidazione-2026",
+    "data": "2026-02-16",
+    "titolo": "Autoliquidazione INAIL",
+    "descrizione": "Versamento premio INAIL: regolazione 2025 e rata 2026 (o prima rata)",
+    "categoria": "inail",
+    "soggetti": [
+      "datori_lavoro"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "inps-artigiani-2026-02",
+    "data": "2026-02-16",
+    "titolo": "Contributi INPS artigiani e commercianti",
+    "descrizione": "Versamento 4ª rata fissa 2025 dei contributi sul minimale di reddito",
+    "categoria": "inps",
+    "soggetti": [
+      "artigiani_commercianti"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "iva-liquidazione-2026-02",
+    "data": "2026-02-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a gennaio 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-02",
+    "data": "2026-02-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a gennaio 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "bollo-fe-2025-q4",
+    "data": "2026-03-02",
+    "titolo": "Bollo fatture elettroniche 4° trimestre 2025",
+    "descrizione": "Versamento imposta di bollo sulle fatture elettroniche del 4° trimestre 2025 (il 28/2 cade di sabato)",
+    "categoria": "bollo",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "lipe-2025-q4",
+    "data": "2026-03-02",
+    "titolo": "LIPE 4° trimestre 2025",
+    "descrizione": "Comunicazione liquidazioni periodiche IVA relative al 4° trimestre 2025 (il 28/2 cade di sabato; assorbita dalla dichiarazione IVA se presentata entro febbraio)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "LIPE",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "cu-2026-invio",
+    "data": "2026-03-16",
+    "titolo": "Certificazione Unica: invio e consegna",
+    "descrizione": "Invio telematico all'Agenzia delle Entrate e consegna ai percipienti delle CU 2026 (redditi 2025)",
+    "categoria": "dichiarazioni",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "CU",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-03",
+    "data": "2026-03-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a febbraio 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "iva-saldo-2025",
+    "data": "2026-03-16",
+    "titolo": "Saldo IVA annuale 2025",
+    "descrizione": "Versamento saldo IVA risultante dalla dichiarazione annuale 2025 (rateizzabile)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "ritenute-2026-03",
+    "data": "2026-03-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a febbraio 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "vidimazione-libri-sociali-2026",
+    "data": "2026-03-16",
+    "titolo": "Tassa vidimazione libri sociali",
+    "descrizione": "Versamento tassa annuale di concessione governativa per la numerazione dei libri sociali (società di capitali)",
+    "categoria": "societa",
+    "soggetti": [
+      "societa_capitali"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "cu-2026-autonomi",
+    "data": "2026-03-31",
+    "titolo": "Certificazione Unica lavoro autonomo",
+    "descrizione": "Invio telematico delle CU 2026 contenenti solo redditi di lavoro autonomo abituale",
+    "categoria": "dichiarazioni",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "CU",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-04",
+    "data": "2026-04-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a marzo 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-04",
+    "data": "2026-04-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a marzo 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "dichiarazione-iva-2026",
+    "data": "2026-04-30",
+    "titolo": "Dichiarazione IVA annuale",
+    "descrizione": "Termine di presentazione della dichiarazione IVA 2026 relativa al 2025",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "IVA 2026",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "inps-artigiani-2026-05",
+    "data": "2026-05-18",
+    "titolo": "Contributi INPS artigiani e commercianti",
+    "descrizione": "Versamento 1ª rata fissa 2026 (il 16 cade di sabato) dei contributi sul minimale di reddito",
+    "categoria": "inps",
+    "soggetti": [
+      "artigiani_commercianti"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "iva-liquidazione-2026-05",
+    "data": "2026-05-18",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a aprile 2026 (contribuenti mensili; il 16 cade di sabato)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "iva-trimestrale-2026-q1",
+    "data": "2026-05-18",
+    "titolo": "Liquidazione IVA 1° trimestre",
+    "descrizione": "Versamento IVA relativa al 1° trimestre 2026, con maggiorazione dell'1% (contribuenti trimestrali; il 16 cade di sabato)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_trimestrale"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "ritenute-2026-05",
+    "data": "2026-05-18",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a aprile 2026 (il 16 cade di sabato)",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "bollo-fe-2026-q1",
+    "data": "2026-06-01",
+    "titolo": "Bollo fatture elettroniche 1° trimestre 2026",
+    "descrizione": "Versamento imposta di bollo sulle fatture elettroniche del 1° trimestre 2026 (il 31/5 cade di domenica; rinviabile al 30/9 se l'importo non supera 5.000 euro)",
+    "categoria": "bollo",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "lipe-2026-q1",
+    "data": "2026-06-01",
+    "titolo": "LIPE 1° trimestre 2026",
+    "descrizione": "Comunicazione liquidazioni periodiche IVA relative al 1° trimestre 2026 (il 31/5 cade di domenica)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "LIPE",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "imu-acconto-2026",
+    "data": "2026-06-16",
+    "titolo": "IMU: acconto",
+    "descrizione": "Versamento prima rata IMU 2026",
+    "categoria": "imu",
+    "soggetti": [
+      "proprietari_immobili"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-06",
+    "data": "2026-06-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a maggio 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-06",
+    "data": "2026-06-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a maggio 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "imposte-saldo-acconto-2026",
+    "data": "2026-06-30",
+    "titolo": "Saldo 2025 e 1° acconto 2026 imposte",
+    "descrizione": "Versamento saldo 2025 e primo acconto 2026 di IRPEF/IRES/IRAP e contributi INPS eccedenti il minimale (termine ordinario; +0,40% entro il 30/7)",
+    "categoria": "imposte",
+    "soggetti": [
+      "persone_fisiche",
+      "societa"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-07",
+    "data": "2026-07-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a giugno 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-07",
+    "data": "2026-07-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a giugno 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "imposte-saldo-acconto-2026-isa",
+    "data": "2026-07-20",
+    "titolo": "Saldo e 1° acconto imposte (soggetti ISA e forfettari)",
+    "descrizione": "Versamento saldo 2025 e primo acconto 2026 senza maggiorazione per soggetti ISA, forfettari e minimi (proroga D.L. 89/2026; +0,80% entro il 20/8)",
+    "categoria": "imposte",
+    "soggetti": [
+      "soggetti_isa",
+      "forfettari"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "inps-artigiani-2026-08",
+    "data": "2026-08-20",
+    "titolo": "Contributi INPS artigiani e commercianti",
+    "descrizione": "Versamento 2ª rata fissa 2026 (differimento feriale al 20/8) dei contributi sul minimale di reddito",
+    "categoria": "inps",
+    "soggetti": [
+      "artigiani_commercianti"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "iva-liquidazione-2026-08",
+    "data": "2026-08-20",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a luglio 2026 (contribuenti mensili; differimento feriale)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "iva-trimestrale-2026-q2",
+    "data": "2026-08-20",
+    "titolo": "Liquidazione IVA 2° trimestre",
+    "descrizione": "Versamento IVA relativa al 2° trimestre 2026, con maggiorazione dell'1% (contribuenti trimestrali; differimento feriale)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_trimestrale"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "ritenute-2026-08",
+    "data": "2026-08-20",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a luglio 2026 (differimento feriale)",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "iva-liquidazione-2026-09",
+    "data": "2026-09-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a agosto 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-09",
+    "data": "2026-09-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a agosto 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "bollo-fe-2026-q2",
+    "data": "2026-09-30",
+    "titolo": "Bollo fatture elettroniche 2° trimestre 2026",
+    "descrizione": "Versamento imposta di bollo sulle fatture elettroniche del 2° trimestre 2026",
+    "categoria": "bollo",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "lipe-2026-q2",
+    "data": "2026-09-30",
+    "titolo": "LIPE 2° trimestre 2026",
+    "descrizione": "Comunicazione liquidazioni periodiche IVA relative al 2° trimestre 2026",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "LIPE",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "modello-730-2026",
+    "data": "2026-09-30",
+    "titolo": "Modello 730/2026: presentazione",
+    "descrizione": "Termine di presentazione del modello 730/2026 (redditi 2025)",
+    "categoria": "dichiarazioni",
+    "soggetti": [
+      "persone_fisiche"
+    ],
+    "modello": "730",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-10",
+    "data": "2026-10-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a settembre 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-10",
+    "data": "2026-10-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a settembre 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "modello-770-2026",
+    "data": "2026-11-02",
+    "titolo": "Modello 770/2026: presentazione",
+    "descrizione": "Termine di presentazione della dichiarazione dei sostituti d'imposta 770/2026 (il 31/10 cade di sabato)",
+    "categoria": "dichiarazioni",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "770",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "redditi-2026-presentazione",
+    "data": "2026-11-02",
+    "titolo": "Modello Redditi e IRAP 2026: presentazione",
+    "descrizione": "Termine di presentazione telematica dei modelli Redditi PF/SP/SC e IRAP 2026 (il 31/10 cade di sabato)",
+    "categoria": "dichiarazioni",
+    "soggetti": [
+      "persone_fisiche",
+      "societa"
+    ],
+    "modello": "Redditi",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "inps-artigiani-2026-11",
+    "data": "2026-11-16",
+    "titolo": "Contributi INPS artigiani e commercianti",
+    "descrizione": "Versamento 3ª rata fissa 2026 dei contributi sul minimale di reddito",
+    "categoria": "inps",
+    "soggetti": [
+      "artigiani_commercianti"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "iva-liquidazione-2026-11",
+    "data": "2026-11-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a ottobre 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "iva-trimestrale-2026-q3",
+    "data": "2026-11-16",
+    "titolo": "Liquidazione IVA 3° trimestre",
+    "descrizione": "Versamento IVA relativa al 3° trimestre 2026, con maggiorazione dell'1% (contribuenti trimestrali)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_trimestrale"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "ritenute-2026-11",
+    "data": "2026-11-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a ottobre 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "bollo-fe-2026-q3",
+    "data": "2026-11-30",
+    "titolo": "Bollo fatture elettroniche 3° trimestre 2026",
+    "descrizione": "Versamento imposta di bollo sulle fatture elettroniche del 3° trimestre 2026",
+    "categoria": "bollo",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "imposte-secondo-acconto-2026",
+    "data": "2026-11-30",
+    "titolo": "2° acconto imposte 2026",
+    "descrizione": "Versamento secondo o unico acconto 2026 di IRPEF/IRES/IRAP e contributi INPS eccedenti il minimale",
+    "categoria": "imposte",
+    "soggetti": [
+      "persone_fisiche",
+      "societa"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "lipe-2026-q3",
+    "data": "2026-11-30",
+    "titolo": "LIPE 3° trimestre 2026",
+    "descrizione": "Comunicazione liquidazioni periodiche IVA relative al 3° trimestre 2026",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "LIPE",
+    "ricorrenza": "trimestrale"
+  },
+  {
+    "id": "imu-saldo-2026",
+    "data": "2026-12-16",
+    "titolo": "IMU: saldo",
+    "descrizione": "Versamento seconda rata IMU 2026 a conguaglio",
+    "categoria": "imu",
+    "soggetti": [
+      "proprietari_immobili"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  },
+  {
+    "id": "iva-liquidazione-2026-12",
+    "data": "2026-12-16",
+    "titolo": "Liquidazione IVA mensile",
+    "descrizione": "Versamento IVA relativa a novembre 2026 (contribuenti mensili)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva_mensile"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "ritenute-2026-12",
+    "data": "2026-12-16",
+    "titolo": "Versamento ritenute",
+    "descrizione": "Ritenute IRPEF su redditi di lavoro dipendente e autonomo operate a novembre 2026",
+    "categoria": "ritenute",
+    "soggetti": [
+      "sostituti_imposta"
+    ],
+    "modello": "F24",
+    "ricorrenza": "mensile"
+  },
+  {
+    "id": "acconto-iva-2026",
+    "data": "2026-12-28",
+    "titolo": "Acconto IVA 2026",
+    "descrizione": "Versamento acconto IVA per il 2026, metodo storico, previsionale o analitico (il 27/12 cade di domenica)",
+    "categoria": "iva",
+    "soggetti": [
+      "partita_iva"
+    ],
+    "modello": "F24",
+    "ricorrenza": "annuale"
+  }
+]
