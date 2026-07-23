@@ -23,6 +23,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://nbflows.com"
+Repository = "https://github.com/nbflows-managemente/scadenze"
 
 [project.scripts]
 scadenze = "scadenze.cli:app"
