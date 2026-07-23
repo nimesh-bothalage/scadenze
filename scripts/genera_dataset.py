@@ -163,9 +163,9 @@ scadenze += [
     },
     {
         "id": "cu-2026-autonomi",
-        "data": "2026-03-31",
+        "data": "2026-04-30",
         "titolo": "Certificazione Unica lavoro autonomo",
-        "descrizione": "Invio telematico delle CU 2026 contenenti solo redditi di lavoro autonomo abituale",
+        "descrizione": "Invio telematico delle CU 2026 contenenti esclusivamente redditi di lavoro autonomo (termine differenziato rispetto al 16 marzo)",
         "categoria": "dichiarazioni",
         "soggetti": ["sostituti_imposta"],
         "modello": "CU",

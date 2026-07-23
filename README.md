@@ -86,7 +86,8 @@ consulenza professionale.
 
 ## Roadmap
 
-- [ ] Revisione completa delle date su fonti ufficiali
+- [x] Revisione delle date su fonti ufficiali (scadenzario AdE, Fisco Oggi,
+      Circolare INPS 14/2026 — luglio 2026)
 - [ ] Dataset 2027
 - [ ] Export CSV
 - [ ] Notifiche/reminder
