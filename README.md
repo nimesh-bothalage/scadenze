@@ -21,7 +21,7 @@ uv tool install scadenze   # oppure: pip install scadenze
 Per provarlo dal repository senza installare:
 
 ```sh
-git clone https://github.com/nbflows-managemente/scadenze
+git clone https://github.com/nimesh-bothalage/scadenze
 cd scadenze
 uv run scadenze prossime
 ```

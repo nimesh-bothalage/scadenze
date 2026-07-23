@@ -26,5 +26,5 @@ e il versionamento segue il [Semantic Versioning](https://semver.org/lang/it/).
 - README con GIF animata del terminale e pubblicazione automatica su PyPI
   via trusted publishing
 
-[0.1.1]: https://github.com/nbflows-managemente/scadenze/releases/tag/v0.1.1
-[0.1.0]: https://github.com/nbflows-managemente/scadenze/releases/tag/v0.1.0
+[0.1.1]: https://github.com/nimesh-bothalage/scadenze/releases/tag/v0.1.1
+[0.1.0]: https://github.com/nimesh-bothalage/scadenze/releases/tag/v0.1.0
